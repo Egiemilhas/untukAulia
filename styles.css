@@ -4,7 +4,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #f8f8f8;
+  font-family: 'Arial', sans-serif;
 }
 
 .container {
@@ -13,12 +14,44 @@ body {
 
 .content {
   padding: 20px;
-  background-color: #fff;
+  background: linear-gradient(45deg, #86e3fa, #f56fb2); /* Gradien warna emas ke merah */
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
 }
 
 .content:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background: linear-gradient(45deg, #4caf50, #2196f3); /* Gradien warna hijau ke biru */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #fc56bc, #fce66e); /* Gradien warna merah ke emas saat dihover */
 }
